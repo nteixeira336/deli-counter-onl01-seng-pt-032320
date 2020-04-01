@@ -5,7 +5,7 @@ def line(katz_deli)
     
   else 
     
-    string= "The line is currently:"
+    string= "The line is currently: "
     katz_deli.each.with_index(1) do |person, index|
       string += "#{index}. #{person} "
     end 
